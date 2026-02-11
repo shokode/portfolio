@@ -138,7 +138,7 @@ const works = [
     tags: ["UI/UX"],
     used: ["Figma"],
     href: "https://www.figma.com/proto/K42Yt3TZC7ozu39OssRPZi/Armchair-EC-site?node-id=19-391&t=GVRhPGd7lsivwTxg-1",
-    thumb: "./img/pdf/ECsiteArmchair.png"
+    thumb: "./img/pdf/ECSiteArmChair.png"
  },
 
  {
