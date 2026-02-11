@@ -1,24 +1,25 @@
 body{
-    background-color:#FAF3DD;
+    background-color:#fefae0;
     font-family: Arvo,sans-serif;
+    color: #526b34;
 
 }
 
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
-    background-color: #F2CC8F;
+    background-color: #2e3711;
   
 
 }
 #mainNavbar .navbar-brand {
-    color: #3D405B;
+    color: #e5f3d3;
     font-size: 1.7rem;
 }
 #mainNavbar .nav-link{
-    color: rgba(150, 126, 94, 0.267);
+    color: rgba(255, 247, 237, 0.267);
 }
 #mainNavbar .nav-link:hover {
-    color: #3D405B;
+    color: #d1d2e3;
 
 }
