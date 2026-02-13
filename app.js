@@ -86,7 +86,7 @@ const works = [
   {
     id: "p1",
     type: "pdf",
-    title: "Book cover design (multiple genres)",
+    title: "(YFF)Book cover design (multiple genres)",
     date: "2024-11-28",
     tags: ["Graphic"],
     subtitle: "Concept / Layout / Typography",
@@ -144,8 +144,8 @@ const works = [
  {
   id: "u2",
   type: "web",
-  title: "YFF portfolio site (prototype)",
-  subtitle: "UI design / prototype",
+  title: "(YFF)portfolio site",
+  subtitle: "UI,UX design / prototype",
   date: "2025-11-12",        // 日付はあとででOK
   tags: ["UI/UX"],
   used: ["Figma"],
@@ -156,7 +156,7 @@ const works = [
 {
   id: "w1",
   type: "web",
-  title: "High or Low",
+  title: "(YFF)High or Low",
   subtitle: "Interaction / Game Flow / Logic",
   date: "2025-06-04",
   tags: ["Web", "UI/UX"],
