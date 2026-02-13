@@ -172,7 +172,7 @@ const works = [
   date: "2026-02-03",
   tags: ["Web", "UI/UX"],
   used: ["HTML", "CSS", "JavaScript"],
-  href: "https://shokode.github.io/high-or-low/",
+  href: "https://shokode.github.io/digital-artist-portfolio/",
   thumb: "./img/pdf/"
 },
 {
@@ -183,7 +183,7 @@ const works = [
   date: "2026-02-11",
   tags: ["Web", "UI/UX"],
   used: ["HTML", "CSS", "JavaScript", "GSAP", "Sass", "SCSS"],
-  href: "https://shokode.github.io/high-or-low/",
+  href: "https://shokode.github.io/digital-artist-portfolio2/",
   thumb: "./img/pdf/"
 },
 
