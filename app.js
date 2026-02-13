@@ -184,7 +184,7 @@ const works = [
   tags: ["Web", "UI/UX"],
   used: ["HTML", "CSS", "JavaScript", "GSAP", "Sass", "SCSS"],
   href: "https://shokode.github.io/digital-artist-portfolio2/",
-  thumb: "./img/pdf/"
+  thumb: "./img/pdf/AMWS2.png"
 },
 
 {
