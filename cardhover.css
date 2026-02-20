@@ -6,7 +6,7 @@
   --title-color: #394A65;
   --text-color: hsl(223, 4%, 32%);
   --body-color: #F8F8F1;
-  --container-color: #ffffff;
+  --container-color: #fffdf8;
   --accent-color: #CCB25D;
 
   --body-font: system-ui, -apple-system, Segoe UI, sans-serif;
@@ -73,14 +73,14 @@ img{
 
 /* Night theme */
 body.dark{
-  --body-color: #394A65;        /* 背景（濃いネイビー） */
+  --body-color: #101722;        /* 背景（濃いネイビー） */
   --container-color: #303f58 ;   /* カード */
   --title-color: #e5e7eb;       /* 見出し */
   --text-color: #9ca3af;        /* 通常テキスト */
   --first-color: #BEE4C2;       /* アクセントはそのまま */
 }
 body.dark .card__article{
-  box-shadow: 0 10px 28px rgba(0,0,0,.6);
+  box-shadow: 0 10px 28px rgba(146, 191, 194, 0.6);
 }
 body.dark .card__article:hover .card__date{
   color: #e5e7eb;
