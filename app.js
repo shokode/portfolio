@@ -182,7 +182,7 @@ const works = [
   subtitle: "Interaction / Game Flow / Logic",
   date: "2026-02-11",
   tags: ["Web", "UI/UX"],
-  used: ["HTML", "CSS", "JavaScript", "GSAP", "Sass", "SCSS"],
+  used: ["HTML", "CSS", "JavaScript", "GSAP", "SASS(SCSS)"],
   href: "https://shokode.github.io/digital-artist-portfolio2/",
   thumb: "./img/pdf/AMWS2.png"
 },
