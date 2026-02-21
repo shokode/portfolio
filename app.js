@@ -179,7 +179,7 @@ const works = [
   id: "w3",
   type: "web",
   title: "Digital Artist Portfolio 2",
-  subtitle: "Interaction / Game Flow / Logic",
+  subtitle: "static website / Interaction / animation",
   date: "2026-02-11",
   tags: ["Web", "UI/UX"],
   used: ["HTML", "CSS", "JavaScript", "GSAP", "SASS(SCSS)"],
