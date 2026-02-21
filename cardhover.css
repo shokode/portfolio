@@ -45,13 +45,6 @@
 
   background-image: url("./img/pdf/gahag-0093252435-1.jpg"); /* ←これ差し替え */
 }
-body.dark #themeToggle{
-  background:var(--title-color) center/38px 38px no-repeat;
-  background-image: url("./img");
-  border-color: #e5e7eb;
-  color: #e5e7eb;
-}
-
 
 
 *{ box-sizing: border-box; margin: 0; padding: 0; }
@@ -59,7 +52,6 @@ body.dark #themeToggle{
 body{
   font-family: var(--body-font);
   background: var(--body-color);
-  color: var(--text-color);
   padding-bottom: 6rem; /* 好みで増減 */
 }
 
@@ -99,11 +91,22 @@ body.dark .card__cta{
 body.dark .card__tool{
   background-color: #4a6083;
 }
+body.dark .filters{
+  border: 2px solid #CCB25D;
+}
 body.dark .filters-button{
   background: transparent;
   border-color: #e5e7eb;
   color: #e5e7eb;
 }
+body.dark #themeToggle{
+  background:var(--title-color) center/38px 38px no-repeat;
+  background-image: url("./img");
+  border-color: #e5e7eb;
+  color: #e5e7eb;
+}
+
+
 
 /* =========================
    Filters
@@ -112,6 +115,8 @@ body.dark .filters-button{
   position: sticky;
   top: 0;
   z-index: 999;
+  /* border: 3px solid #CCB25D; */
+  border: 3px solid #394A65;
 
   margin: auto;
   padding: 1.5rem 2rem;
@@ -177,6 +182,12 @@ body.dark .filters-button.is-active{
 .card__container{
   display: grid;
   row-gap: 3.5rem;
+  border: 3px solid #394A65;
+  border-radius:50px;
+  padding: 5rem;
+}
+.dark .card__container{
+  border: 2px solid #CCB25D;
 }
 
 /* =========================
@@ -393,6 +404,16 @@ body.dark .filters-button.is-active{
    Breakpoints
 ========================= */
 @media screen and (max-width: 340px){
+  .filters{
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    display: flex;
+
+  }
+  .filters-button{
+    font-size: 12px;
+    margin: 5px;
+  }
   .container{ margin-inline: 1rem; }
   .card__data{ width: 250px; padding: 1rem; }
 }
