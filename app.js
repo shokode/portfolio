@@ -244,16 +244,17 @@ function cardHTML(w){
     return "";
   })();
 
+  const isPdf = w.type === "pdf";
+  const linkAttrs = isPdf
+    ? `href="#" data-pdf="${w.href}"`
+    : `href="${w.href}" target="_blank" rel="noopener"`;
+
   // ↓ ここから return
   return `
     <article class="card__article" data-tags="${tagList.join(",")}" data-type="${w.type}">
-      <a class="card__link" href="${w.href}" target="_blank" rel="noopener">
+      <a class="card__link" ${linkAttrs}>
         ${media}
-
-        <div class="card__tags">
-          ${tags}
-        </div>
-
+        <div class="card__tags">${tags}</div>
         <div class="card__data">
           <span class="card__description">${w.subtitle ?? ""}</span>
           <h2 class="card__title">${w.title}</h2>
@@ -272,6 +273,14 @@ function cardHTML(w){
 function render(list){
   grid.innerHTML = list.map(cardHTML).join("");
 }
+
+document.getElementById('workGrid').addEventListener('click', e => {
+  const link = e.target.closest('a[data-pdf]');
+  if (!link) return;
+  e.preventDefault();
+  document.getElementById('pdf-frame').src = link.dataset.pdf;
+  document.getElementById('pdf-modal').style.display = 'block';
+});
 
 // 初期表示（最新順）
 const sortedWorks = [...works].sort(

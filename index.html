@@ -28,6 +28,15 @@
     </div>
   </div>
 
+  <div id="pdf-modal" onclick="this.style.display='none'" style="display:none;position:fixed;inset:0;background:#000a;z-index:9999;padding:2rem">
+    <button onclick="document.getElementById('pdf-modal').style.display='none'" style="position:absolute;top:1rem;right:1.5rem;font-size:1.5rem;background:none;border:none;color:white;cursor:pointer">✕</button>
+    <iframe id="pdf-frame" style="width:100%;height:100%;border:none"></iframe>
+  </div>
+  <script>
+    document.addEventListener('keydown', e => {
+     if (e.key === 'Escape') document.getElementById('pdf-modal').style.display = 'none';
+    });
+  </script>
 
   <script src="./app.js"></script>
 </body>
