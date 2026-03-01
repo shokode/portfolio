@@ -17,7 +17,7 @@ buttons.forEach(btn => {
 
 const works = [
   {
-    id: "v1",
+    id: "video1",
     type: "video",
     title: "Handletur med hunden min, Chii!!",
     year: 2024,
@@ -30,7 +30,7 @@ const works = [
     thumb: "./img/video-thumb.jpg"
   },
   {
-    id: "v2",
+    id: "video2",
     type: "video",
     title: "Tungekrøllkonkurranse",
     year: 2024,
@@ -43,7 +43,7 @@ const works = [
     thumb: "./img/video-thumb.jpg"
   },
   {
-    id: "v3",
+    id: "video3",
     type: "video",
     title: "Gluten free scones recipe",
     year: 2025,
@@ -57,7 +57,7 @@ const works = [
   },
 
   {
-    id: "v4",
+    id: "video4",
     type: "video",
     title: "Hva er IoT??",
     year: 2025,
@@ -70,7 +70,7 @@ const works = [
     thumb: "./img/video-thumb.jpg"
   },
   {
-    id: "v5",
+    id: "video5",
     type: "video",
     title: "AI er bra!",
     year: 2025,
@@ -84,7 +84,7 @@ const works = [
   },
 
   {
-    id: "p1",
+    id: "pdf1",
     type: "pdf",
     title: "(YFF)Book cover design (multiple genres)",
     date: "2024-11-28",
@@ -95,7 +95,7 @@ const works = [
     thumb: "./img/pdf/chii_med_washi.png"
   },
   {
-    id: "p2",
+    id: "pdf2",
     type: "pdf",
     title: "Enkel Layout oppgaver",
     date: "2025-03-06",
@@ -106,7 +106,7 @@ const works = [
     thumb: "./img/pdf/Untitled.png"
   },
   {
-    id: "p3",
+    id: "pdf3",
     type: "pdf",
     title: "'Birthday Party' scrapbook",
     date: "2025-01-27",
@@ -117,7 +117,7 @@ const works = [
     thumb: "./img/pdf/4.png"
   },
 {
-  id: "p4",
+  id: "pdf4",
   type: "pdf",
   title: "Hva er QR-kode",
   date: "2025-04-24",
@@ -130,7 +130,7 @@ const works = [
 
 
   {
-    id: "u1",
+    id: "ui/ux1",
     type: "web",
     title: "Armchair EC site",
     subtitle: "Wireframe / UI / Prototype",
@@ -142,7 +142,7 @@ const works = [
  },
 
  {
-  id: "u2",
+  id: "ui/ux2",
   type: "web",
   title: "(YFF)portfolio site",
   subtitle: "UI,UX design / prototype",
@@ -154,7 +154,7 @@ const works = [
 },
 
 {
-  id: "w1",
+  id: "web1",
   type: "web",
   title: "(YFF)High or Low",
   subtitle: "Interaction / Game Flow / Logic",
@@ -165,7 +165,7 @@ const works = [
   thumb: "./img/pdf/HighOrLow.png"
 },
 {
-  id: "w2",
+  id: "web2",
   type: "web",
   title: "Digital Artist Portfolio",
   subtitle: "One-page / Links / Gallery",
@@ -176,7 +176,7 @@ const works = [
   thumb: "./img/pdf/AMWS3.png"
 },
 {
-  id: "w3",
+  id: "web3",
   type: "web",
   title: "Digital Artist Portfolio 2",
   subtitle: "static website / Interaction / animation",
@@ -188,7 +188,7 @@ const works = [
 },
 
 {
-  id: "s1",
+  id: "slides1",
   type: "slides",
   title: "Hvem er universell utforming nyttig for?",
   year: 2026,
