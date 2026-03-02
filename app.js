@@ -116,17 +116,18 @@ const works = [
     href: "./img/pdf/Birthdaypartyscrapbook.pdf",
     thumb: "./img/pdf/4.png"
   },
-{
-  id: "pdf4",
-  type: "pdf",
-  title: "Hva er QR-kode",
-  date: "2025-04-24",
-  tags: ["Graphic"],
-  subtitle: "Concept / Layout / Presentation",
-  used: ["Canva", "ChatGPT","AI art"],
-  href: "./img/pdf/QRkode.pdf",
-  thumb: "./img/pdf/qr-code.png"
-},
+  {
+    id: "pdf4",
+    type: "pdf",
+    title: "Hva er QR-kode",
+    date: "2025-04-24",
+    tags: ["Graphic"],
+    subtitle: "Concept / Layout / Presentation",
+    used: ["Canva", "ChatGPT","AI art"],
+    href: "./img/pdf/QRkode.pdf",
+    thumb: "./img/pdf/qr-code.png"
+  },
+  
 
 
   {
@@ -200,7 +201,19 @@ const works = [
   href: "https://www.figma.com/deck/jHYu0fekzikWdTqHZlxAxK/%E7%84%A1%E9%A1%8C?node-id=1-848&t=DPPUdHS42CBdoKkP-1",
   thumb: "./img/pdf/UU1.png"
 },
-
+{
+  id: "slides2",
+  type: "slides",
+  title: "(YFF)Nettsideutvikling",
+  year: 2026,
+  date: "2026-02-20",
+  tags: ["Web", ],
+  subtitle: "Structure / Design / Presentation",
+  used: ["Figma Slides"],
+  figmaId: "PASTE_FIGMA_FILE_OR_SHARE_ID",
+  href: "https://www.figma.com/deck/GCGku2HGDOIvS4fXnUYj08/YFF-Web-portfolio-LP-animation.CSSframework--JSlibrary?node-id=94-332&viewport=-1348%2C-817%2C0.57&t=7ggJuKpdTan9hNt4-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+  thumb: "./img/pdf/yff_thumbnail.png"
+},
 
 ];
 
