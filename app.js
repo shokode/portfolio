@@ -211,7 +211,7 @@ const works = [
   subtitle: "Structure / Design / Presentation",
   used: ["Figma Slides"],
   figmaId: "PASTE_FIGMA_FILE_OR_SHARE_ID",
-  href: "https://www.figma.com/deck/GCGku2HGDOIvS4fXnUYj08/YFF-Web-portfolio-LP-animation.CSSframework--JSlibrary?node-id=94-332&viewport=-1348%2C-817%2C0.57&t=7ggJuKpdTan9hNt4-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+  href: "https://www.figma.com/deck/GCGku2HGDOIvS4fXnUYj08/YFF-Web-portfolio-LP-animation.CSSframework--JSlibrary?node-id=7-661&t=Hc8d9D3sILsWZJXj-1",
   thumb: "./img/pdf/yff_thumbnail.png"
 },
 
