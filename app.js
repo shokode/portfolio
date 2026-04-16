@@ -123,11 +123,11 @@ const works = [
     date: "2025-04-24",
     tags: ["Graphic"],
     subtitle: "Concept / Layout / Presentation",
-    used: ["Canva", "ChatGPT","AI art"],
+    used: ["Canva", "ChatGPT", "AI art"],
     href: "./img/pdf/QRkode.pdf",
     thumb: "./img/pdf/qr-code.png"
   },
-  
+
 
 
   {
@@ -140,80 +140,91 @@ const works = [
     used: ["Figma"],
     href: "https://www.figma.com/proto/K42Yt3TZC7ozu39OssRPZi/Armchair-EC-site?node-id=19-391&t=GVRhPGd7lsivwTxg-1",
     thumb: "./img/pdf/ECSiteArmChair.png"
- },
+  },
 
- {
-  id: "ui/ux2",
-  type: "web",
-  title: "(YFF)portfolio site",
-  subtitle: "UI,UX design / prototype",
-  date: "2025-11-12",        // 日付はあとででOK
-  tags: ["UI/UX"],
-  used: ["Figma"],
-  href: "https://www.figma.com/proto/b2Me0C11A1qcFZN7yiahFy/YFF-portef%C3%B8ljeside?node-id=0-1&t=tlWwny9kcZkvCe7H-1",
-  thumb: "./img/pdf/PFfigma.png"
-},
+  {
+    id: "ui/ux2",
+    type: "web",
+    title: "(YFF)portfolio site",
+    subtitle: "UI,UX design / prototype",
+    date: "2025-11-12",        // 日付はあとででOK
+    tags: ["UI/UX"],
+    used: ["Figma"],
+    href: "https://www.figma.com/proto/b2Me0C11A1qcFZN7yiahFy/YFF-portef%C3%B8ljeside?node-id=0-1&t=tlWwny9kcZkvCe7H-1",
+    thumb: "./img/pdf/PFfigma.png"
+  },
 
-{
-  id: "web1",
-  type: "web",
-  title: "(YFF)High or Low",
-  subtitle: "Interaction / Game Flow / Logic",
-  date: "2025-06-04",
-  tags: ["Web", "UI/UX"],
-  used: ["HTML", "CSS", "JavaScript"],
-  href: "https://shokode.github.io/high-or-low/",
-  thumb: "./img/pdf/HighOrLow.png"
-},
-{
-  id: "web2",
-  type: "web",
-  title: "Digital Artist Portfolio",
-  subtitle: "One-page / Links / Gallery",
-  date: "2026-02-03",
-  tags: ["Web", "UI/UX"],
-  used: ["HTML", "CSS", "JavaScript"],
-  href: "https://shokode.github.io/digital-artist-portfolio/",
-  thumb: "./img/pdf/AMWS3.png"
-},
-{
-  id: "web3",
-  type: "web",
-  title: "Digital Artist Portfolio 2",
-  subtitle: "static website / Interaction / animation",
-  date: "2026-02-11",
-  tags: ["Web", "UI/UX"],
-  used: ["HTML", "CSS", "JavaScript", "GSAP", "SASS(SCSS)"],
-  href: "https://shokode.github.io/digital-artist-portfolio2/",
-  thumb: "./img/pdf/suzuri.png"
-},
+  {
+    id: "web1",
+    type: "web",
+    title: "(YFF)High or Low",
+    subtitle: "Interaction / Game Flow / Logic",
+    date: "2025-06-04",
+    tags: ["Web", "UI/UX"],
+    used: ["HTML", "CSS", "JavaScript"],
+    href: "https://shokode.github.io/high-or-low/",
+    thumb: "./img/pdf/HighOrLow.png"
+  },
+  {
+    id: "web2",
+    type: "web",
+    title: "Digital Artist Portfolio",
+    subtitle: "One-page / Links / Gallery",
+    date: "2026-02-03",
+    tags: ["Web", "UI/UX"],
+    used: ["HTML", "CSS", "JavaScript"],
+    href: "https://shokode.github.io/digital-artist-portfolio/",
+    thumb: "./img/pdf/AMWS3.png"
+  },
+  {
+    id: "web3",
+    type: "web",
+    title: "Digital Artist Portfolio 2",
+    subtitle: "static website / Interaction / animation",
+    date: "2026-02-11",
+    tags: ["Web", "UI/UX"],
+    used: ["HTML", "CSS", "JavaScript", "GSAP", "SASS(SCSS)"],
+    href: "https://shokode.github.io/digital-artist-portfolio2/",
+    thumb: "./img/pdf/suzuri.png"
+  },
+  {
+    id: "web4",
+    type: "web",
+    title: "Glutenfri Bakeri",
+    subtitle: "Fictitious project / static website",
+    date: "2026-04-16",
+    tags: ["Web", "UI/UX"],
+    used: ["HTML", "CSS", "JavaScript", "GSAP", "SASS(SCSS)"],
+    href: "https://shokode.github.io/Glutenfri-bakeri/",
+    thumb: "./img/pdf/glutenfreeBakeri.png"
+  },
 
-{
-  id: "slides1",
-  type: "slides",
-  title: "Hvem er universell utforming nyttig for?",
-  year: 2026,
-  date: "2026-01-14",
-  tags: ["Graphic", "UI/UX"],
-  subtitle: "Structure / Design / Presentation",
-  used: ["Figma Slides"],
-  figmaId: "PASTE_FIGMA_FILE_OR_SHARE_ID",
-  href: "https://www.figma.com/deck/jHYu0fekzikWdTqHZlxAxK/%E7%84%A1%E9%A1%8C?node-id=1-848&t=DPPUdHS42CBdoKkP-1",
-  thumb: "./img/pdf/UU1.png"
-},
-{
-  id: "slides2",
-  type: "slides",
-  title: "(YFF)Nettsideutvikling",
-  year: 2026,
-  date: "2026-02-20",
-  tags: ["Web", ],
-  subtitle: "Structure / Design / Presentation",
-  used: ["Figma Slides"],
-  figmaId: "PASTE_FIGMA_FILE_OR_SHARE_ID",
-  href: "https://www.figma.com/deck/GCGku2HGDOIvS4fXnUYj08/YFF-Web-portfolio-LP-animation.CSSframework--JSlibrary?node-id=7-661&t=Hc8d9D3sILsWZJXj-1",
-  thumb: "./img/pdf/yff_thumbnail.png"
-},
+  {
+    id: "slides1",
+    type: "slides",
+    title: "Hvem er universell utforming nyttig for?",
+    year: 2026,
+    date: "2026-01-14",
+    tags: ["Graphic", "UI/UX"],
+    subtitle: "Structure / Design / Presentation",
+    used: ["Figma Slides"],
+    figmaId: "PASTE_FIGMA_FILE_OR_SHARE_ID",
+    href: "https://www.figma.com/deck/jHYu0fekzikWdTqHZlxAxK/%E7%84%A1%E9%A1%8C?node-id=1-848&t=DPPUdHS42CBdoKkP-1",
+    thumb: "./img/pdf/UU1.png"
+  },
+  {
+    id: "slides2",
+    type: "slides",
+    title: "(YFF)Nettsideutvikling",
+    year: 2026,
+    date: "2026-02-20",
+    tags: ["Web",],
+    subtitle: "Structure / Design / Presentation",
+    used: ["Figma Slides"],
+    figmaId: "PASTE_FIGMA_FILE_OR_SHARE_ID",
+    href: "https://www.figma.com/deck/GCGku2HGDOIvS4fXnUYj08/YFF-Web-portfolio-LP-animation.CSSframework--JSlibrary?node-id=7-661&t=Hc8d9D3sILsWZJXj-1",
+    thumb: "./img/pdf/yff_thumbnail.png"
+  },
 
 ];
 
@@ -221,7 +232,7 @@ const works = [
 
 const grid = document.querySelector("#workGrid");
 
-function cardHTML(w){
+function cardHTML(w) {
   const tagList = w.tags ?? [];
   const tags = tagList.map(t => `<span class="card__tag">${t}</span>`).join("");
 
@@ -283,7 +294,7 @@ function cardHTML(w){
 
 
 
-function render(list){
+function render(list) {
   grid.innerHTML = list.map(cardHTML).join("");
 }
 
@@ -304,7 +315,7 @@ render(sortedWorks);
 let active = "All";
 document.querySelector(".filters").addEventListener("click", (e) => {
   const btn = e.target.closest("button");
-  if(!btn) return;
+  if (!btn) return;
 
   active = btn.dataset.filter;
 
