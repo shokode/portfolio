@@ -1,7 +1,7 @@
 /* =========================
    Variables
 ========================= */
-:root{
+:root {
   --first-color: #BEE4C2;
   --title-color: #394A65;
   --text-color: hsl(223, 4%, 32%);
@@ -18,8 +18,8 @@
 }
 
 /* Responsive type */
-@media screen and (min-width: 1120px){
-  :root{
+@media screen and (min-width: 1120px) {
+  :root {
     --h2-font-size: 1.5rem;
     --small-font-size: .875rem;
   }
@@ -28,7 +28,7 @@
 /* =========================
    Base
 ========================= */
-#themeToggle{
+#themeToggle {
   position: fixed;
   top: 16px;
   right: 16px;
@@ -37,70 +37,91 @@
   height: 44px;
   border-radius: 999px;
   border: 2px solid var(--title-color);
-  background:var(--title-color) center/38px 38px no-repeat;
+  background: var(--title-color) center/38px 38px no-repeat;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  box-shadow: 0 12px 18px -12px rgba(0,0,0,.25);
+  box-shadow: 0 12px 18px -12px rgba(0, 0, 0, .25);
   cursor: pointer;
 
-  background-image: url("./img/pdf/gahag-0093252435-1.jpg"); /* ←これ差し替え */
+  background-image: url("./img/pdf/gahag-0093252435-1.jpg");
+  /* ←これ差し替え */
 }
 
 
-*{ box-sizing: border-box; margin: 0; padding: 0; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-body{
+body {
   font-family: var(--body-font);
   background: var(--body-color);
-  padding-bottom: 6rem; /* 好みで増減 */
+  padding-bottom: 6rem;
+  /* 好みで増減 */
 }
 
-img{
-  display:block;
-  max-width:100%;
-  height:auto;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 
 
 /* Night theme */
-body.dark{
-  --body-color: #101722;        /* 背景（濃いネイビー） */
-  --container-color: #303f58 ;   /* カード */
-  --title-color: #e5e7eb;       /* 見出し */
-  --text-color: #9ca3af;        /* 通常テキスト */
-  --first-color: #BEE4C2;       /* アクセントはそのまま */
+body.dark {
+  --body-color: #101722;
+  /* 背景（濃いネイビー） */
+  --container-color: #303f58;
+  /* カード */
+  --title-color: #e5e7eb;
+  /* 見出し */
+  --text-color: #9ca3af;
+  /* 通常テキスト */
+  --first-color: #BEE4C2;
+  /* アクセントはそのまま */
 }
-body.dark .card__article{
+
+body.dark .card__article {
   box-shadow: 0 10px 28px rgba(146, 191, 194, 0.6);
 }
-body.dark .card__article:hover .card__date{
+
+body.dark .card__article:hover .card__date {
   color: #e5e7eb;
 }
-body.dark .card__data{
-  box-shadow: 0 12px 30px rgba(0,0,0,.65);
+
+body.dark .card__data {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .65);
 }
-body.dark .card__tag{
+
+body.dark .card__tag {
   background: #394A65;
   border-color: #F8F8F1;
   color: #e5e7eb;
 }
-body.dark .card__cta{
-  color: var(--accent-color); /* 目立つ青系 */
+
+body.dark .card__cta {
+  color: var(--accent-color);
+  /* 目立つ青系 */
 }
-body.dark .card__tool{
+
+body.dark .card__tool {
   background-color: #4a6083;
 }
-body.dark .filters{
+
+body.dark .filters {
   border: 2px solid #CCB25D;
 }
-body.dark .filters-button{
+
+body.dark .filters-button {
   background: transparent;
   border-color: #e5e7eb;
   color: #e5e7eb;
 }
-body.dark #themeToggle{
-  background:var(--title-color) center/38px 38px no-repeat;
+
+body.dark #themeToggle {
+  background: var(--title-color) center/38px 38px no-repeat;
   background-image: url("./img");
   border-color: #e5e7eb;
   color: #e5e7eb;
@@ -111,28 +132,28 @@ body.dark #themeToggle{
 /* =========================
    Filters
 ========================= */
-.filters{
+.filters {
   position: sticky;
   top: 0;
   z-index: 999;
   /* border: 3px solid #CCB25D; */
   border: 3px solid #394A65;
 
-  margin: auto;
-  padding: 1.5rem 2rem;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
 
   /* ほぼ透明で馴染ませる */
   background: color-mix(in srgb, var(--body-color) 20%, transparent);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-radius: 999px;    
+  border-radius: 999px;
 
   /* 影を下だけに */
   /* box-shadow: 0 12px 18px -12px rgba(0,0,0,.25); */
 }
 
 
-.filters-button{
+.filters-button {
   color: var(--title-color);
   display: inline-flex;
   align-items: center;
@@ -147,7 +168,7 @@ body.dark #themeToggle{
   transition: transform .3s, box-shadow .3s, background-color .3s, color .3s, border-color .3s;
 }
 
-.filters-button:hover{
+.filters-button:hover {
   background-color: var(--title-color);
   color: var(--body-color);
   border-color: var(--body-color);
@@ -156,75 +177,80 @@ body.dark #themeToggle{
   cursor: pointer;
 }
 
-.filters-button.is-active{
+.filters-button.is-active {
   background: var(--title-color);
   color: var(--body-color);
   border-color: var(--title-color);
-  box-shadow: 0 10px 18px -12px rgba(0,0,0,.35);
+  box-shadow: 0 10px 18px -12px rgba(0, 0, 0, .35);
   transform: none;
 }
-body.dark .filters-button.is-active{
-  background: #e5e7eb;   /* 明るいグレー */
-  color: #394A65;        /* 濃いネイビー文字 */
+
+body.dark .filters-button.is-active {
+  background: #e5e7eb;
+  /* 明るいグレー */
+  color: #394A65;
+  /* 濃いネイビー文字 */
   border-color: #e5e7eb;
-  box-shadow: 0 10px 18px -12px rgba(0,0,0,.6);
+  box-shadow: 0 10px 18px -12px rgba(0, 0, 0, .6);
 }
+
 /* =========================
    Layout
 ========================= */
-.container{
+.container {
   display: grid;
   place-items: center;
   margin-inline: 1.5rem;
   padding-block: 5rem;
 }
 
-.card__container{
+.card__container {
   display: grid;
   row-gap: 3.5rem;
   border: 3px solid #394A65;
-  border-radius:50px;
+  border-radius: 50px;
   padding: 5rem;
 }
-.dark .card__container{
+
+.dark .card__container {
   border: 2px solid #CCB25D;
 }
 
 /* =========================
    Card
 ========================= */
-.card__article{
+.card__article {
   position: relative;
   overflow: hidden;
   border-radius: var(--card-radius);
   background: transparent;
-  border: 1px solid rgba(57,74,101,.12);
-  box-shadow: 0 20px 20px hsla(0,0%,0%,.20);
+  border: 1px solid rgba(57, 74, 101, .12);
+  box-shadow: 0 20px 20px hsla(0, 0%, 0%, .20);
   transition: box-shadow .25s, border-color .25s;
 }
 
-.card__article:hover{
+.card__article:hover {
 
-  border-color: rgba(57,74,101,.22);
-  box-shadow: 0 12px 24px hsla(0,0%,0%,.16);
+  border-color: rgba(57, 74, 101, .22);
+  box-shadow: 0 12px 24px hsla(0, 0%, 0%, .16);
 }
 
 /* Media (image / iframe square) */
-.card__img{
+.card__img {
   width: 328px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: var(--card-radius);
 }
 
-.card__media{
+.card__media {
   width: 328px;
   aspect-ratio: 1 / 1;
   border-radius: var(--card-radius);
   overflow: hidden;
 }
 
-.card__media iframe{
+.card__media iframe {
   width: 100%;
   height: 100%;
   border: 0;
@@ -232,7 +258,7 @@ body.dark .filters-button.is-active{
 }
 
 /* Tags on top */
-.card__tags{
+.card__tags {
   position: absolute;
   top: 12px;
   left: 12px;
@@ -241,8 +267,8 @@ body.dark .filters-button.is-active{
   z-index: 4;
 }
 
-.card__tag{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.card__tag {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: var(--title-color);
   display: inline-flex;
   align-items: center;
@@ -257,18 +283,20 @@ body.dark .filters-button.is-active{
 
 
 /* Link wrapper */
-.card__link{
+.card__link {
   display: block;
   color: inherit;
   text-decoration: none;
 }
 
-.card__link:visited{ color: inherit; }
+.card__link:visited {
+  color: inherit;
+}
 
 /* =========================
    Floating data panel
 ========================= */
-.card__data{
+.card__data {
   position: absolute;
   left: 0;
   right: 0;
@@ -282,8 +310,8 @@ body.dark .filters-button.is-active{
   padding: 1.5rem 2rem;
   border-radius: var(--data-radius);
   background: var(--container-color);
-  border: 1px solid rgba(57,74,101,.15);
-  box-shadow: 0 8px 24px hsla(0,0%,0%,.12);
+  border: 1px solid rgba(57, 74, 101, .15);
+  box-shadow: 0 8px 24px hsla(0, 0%, 0%, .12);
 
   opacity: 0;
   z-index: 5;
@@ -291,7 +319,7 @@ body.dark .filters-button.is-active{
 }
 
 /* Typography inside data */
-.card__description{
+.card__description {
   display: block;
   font-size: var(--small-font-size);
   font-weight: 700;
@@ -299,7 +327,7 @@ body.dark .filters-button.is-active{
   margin-bottom: 4px;
 }
 
-.card__title{
+.card__title {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -312,7 +340,7 @@ body.dark .filters-button.is-active{
 }
 
 /* Tools (chips) */
-.card__tools{
+.card__tools {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -321,30 +349,30 @@ body.dark .filters-button.is-active{
   list-style: none;
 }
 
-.card__tool{
+.card__tool {
   font-size: .75rem;
   font-weight: 600;
   padding: 4px 10px;
   border-radius: 999px;
-  background: rgba(0,0,0,.04);
-  border: 1px solid rgba(57,74,101,.18);
+  background: rgba(0, 0, 0, .04);
+  border: 1px solid rgba(57, 74, 101, .18);
   color: var(--title-color);
 }
 
 /* Date */
-.card__date{
+.card__date {
   justify-self: end;
   font-size: .75rem;
   color: #6b7280;
   margin-top: 6px;
 }
 
-.card__article:hover .card__date{
+.card__article:hover .card__date {
   color: #374151;
 }
 
 /* CTA (hover only) */
-.card__cta{
+.card__cta {
   justify-self: start;
   font-size: var(--small-font-size);
   font-weight: 600;
@@ -354,7 +382,7 @@ body.dark .filters-button.is-active{
   transition: opacity .3s, transform .3s;
 }
 
-.card__article:hover .card__cta{
+.card__article:hover .card__cta {
   opacity: 1;
   transform: translateY(0);
 }
@@ -362,49 +390,70 @@ body.dark .filters-button.is-active{
 /* =========================
    Hover animations (your original)
 ========================= */
-.card__article:hover .card__data{
+.card__article:hover .card__data {
   animation: show-data 1s forwards;
   opacity: 1;
   transition: opacity .5s;
 }
 
-.card__article:hover{
+.card__article:hover {
   animation: remove-overflow 2s forwards;
 }
 
-.card__article:not(:hover){
+.card__article:not(:hover) {
   animation: show-overflow 2s forwards;
 }
 
-.card__article:not(:hover) .card__data{
+.card__article:not(:hover) .card__data {
   animation: remove-data 1s forwards;
 }
 
-@keyframes show-data{
-  50%{ transform: translateY(-10rem); }
-  100%{ transform: translateY(-7rem); }
+@keyframes show-data {
+  50% {
+    transform: translateY(-10rem);
+  }
+
+  100% {
+    transform: translateY(-7rem);
+  }
 }
 
-@keyframes remove-overflow{
-  to{ overflow: initial; }
+@keyframes remove-overflow {
+  to {
+    overflow: initial;
+  }
 }
 
-@keyframes remove-data{
-  0%{ transform: translateY(-7rem); }
-  50%{ transform: translateY(-10rem); }
-  100%{ transform: translateY(.5rem); }
+@keyframes remove-data {
+  0% {
+    transform: translateY(-7rem);
+  }
+
+  50% {
+    transform: translateY(-10rem);
+  }
+
+  100% {
+    transform: translateY(.5rem);
+  }
 }
 
-@keyframes show-overflow{
-  0%{ overflow: initial; pointer-events: none; }
-  50%{ overflow: hidden; }
+@keyframes show-overflow {
+  0% {
+    overflow: initial;
+    pointer-events: none;
+  }
+
+  50% {
+    overflow: hidden;
+  }
 }
 
 /* =========================
    Breakpoints
 ========================= */
-@media screen and (max-width: 767px){
-  .filters{
+@media screen and (max-width: 767px) {
+  .filters {
     grid-template-columns: repeat(3, 1fr);
     padding: 0.5rem;
     flex-wrap: wrap;
@@ -412,25 +461,48 @@ body.dark .filters-button.is-active{
     border: none;
 
   }
-  .filters-button{
+
+  .filters-button {
     font-size: 12px;
     margin: 5px;
   }
-  .container{ margin-inline: 1rem; }
-  .card__data{ width: 250px; padding: 1rem; }
+
+  .container {
+    margin-inline: 1rem;
+  }
+
+  .card__data {
+    width: 250px;
+    padding: 1rem;
+  }
 }
 
-@media screen and (min-width: 768px){
-  .card__container{
+@media screen and (min-width: 768px) {
+  .card__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1.5rem;
   }
 }
 
-@media screen and (min-width: 1120px){
-  .container{ height: auto; }
-  .card__container{ grid-template-columns: repeat(3, 1fr); }
-  .card__img{ width: 340px; }
-  .card__media{ width: 340px; }
-  .card__data{ width: 316px; padding-inline: 2.5rem; }
+@media screen and (min-width: 1120px) {
+  .container {
+    height: auto;
+  }
+
+  .card__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card__img {
+    width: 340px;
+  }
+
+  .card__media {
+    width: 340px;
+  }
+
+  .card__data {
+    width: 316px;
+    padding-inline: 2.5rem;
+  }
 }
